@@ -2,7 +2,7 @@ import "./styles.css";
 import  "./PageLoad";
 import { renderHome } from "./home";
 import { renderMenu } from "./menu";
-import { aboutContent, renderAbout } from "./about";
+import { renderAbout } from "./about";
 
 
 
