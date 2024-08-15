@@ -1,3 +1,5 @@
+import { container } from "./PageLoad";
+
 export const aboutContent = {
     about: `
         <h1>About Us</h1>
@@ -5,3 +7,6 @@ export const aboutContent = {
         `
 };
 
+export function renderAbout(){
+    container.innerHTML = aboutContent.about;
+}

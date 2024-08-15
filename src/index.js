@@ -1,20 +1,20 @@
 import "./styles.css";
 import  "./PageLoad";
-import { homeContent } from "./home";
-import { menuContent } from "./menu";
-import { aboutContent } from "./about";
+import { renderHome } from "./home";
+import { renderMenu } from "./menu";
+import { aboutContent, renderAbout } from "./about";
 
 
 
 // Attach event listeners to the buttons
 homeBtn.addEventListener('click', () => {
-    content.innerHTML = homeContent.home;
+    renderHome();
 });
 
 menuBtn.addEventListener('click', () => {
-    content.innerHTML = menuContent.menu;
+    renderMenu()
 });
 
 aboutBtn.addEventListener('click', () => {
-    content.innerHTML = aboutContent.about;
+    renderAbout()
 });
