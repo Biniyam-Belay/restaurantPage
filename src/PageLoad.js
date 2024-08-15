@@ -1,10 +1,9 @@
 export function pageLoad (){
     const title = document.createElement('h1');
-    title.classList.add('title')
-    title.innerHTML = "Welcome to DANCHA Restaurant";
+    title.innerHTML = "Welcome to Our Restaurant";
 
     const text = document.createElement('p')
-    text.innerHTML = "Your food Hotspot"
+    text.innerHTML = "Experience the best culinary delights with us."
 
 
     const container = document.getElementById('content');
