@@ -1,3 +1,75 @@
+/* General styles */
 body {
-  background-color: rebeccapurple;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #ff5722;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Content Area */
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffcb21a8;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2e7d32;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 22px;
+  color: #333;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: auto;
 }
